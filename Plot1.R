@@ -4,6 +4,8 @@
 ## all of which were constructed using the base plotting system.
 ## Construct the plot and save it to a PNG file with a width of 480 pixels and a height of 480 pixels.
 
+library(data.table)
+
 ## Dowload data file in working folder and unzip it
 ## Delete zip file
 download.file("https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip",destfile = "household_power_consumption.zip", method = "curl")
